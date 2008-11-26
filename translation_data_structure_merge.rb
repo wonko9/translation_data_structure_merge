@@ -31,7 +31,7 @@ translations = {
 
 # compare_languages() creates a data structure that compares two langauges
 
-compare_languages(translations,"en-US","en-PR")
+merge_languages(translations,"en-US","en-PR")
 # outputs
 [
   ["save","Save","Go for it"],
