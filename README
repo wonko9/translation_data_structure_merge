@@ -1,8 +1,1 @@
-We use translation files to match keys with their translations in different languages.   These keys can be broken into sections,
-ie the keys can be at arbitrary depths.   There is also a feature to deal with pluralization where a key can have a "one" and an
-"other" translation string.   Sometimes you want to compare the translations in two languages.   The included file contains a
-sample from a translation file.   The goal is to write a method called merge_languages that takes two languages and the
-translations data structure and outputs a single data structure which has the composite key (given the arbitrary depth of the
-hash) as well as the translation in both languages.
-
-Write the method merge_languages which takes the above translations data structure and outputs the one below.
+See translation_data_structure_merge.rb
